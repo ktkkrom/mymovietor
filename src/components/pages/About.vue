@@ -1,13 +1,10 @@
 <template lang="html">
-  <h2>{{ msg || 'Error' }}</h2>
+  <h2>Welcome to the about Page :)</h2>
 </template>
 
 <script>
 export default {
-  name: 'NotFound',
-  props: {
-    msg: String
-  }
+  name: 'About'
 }
 </script>
 
